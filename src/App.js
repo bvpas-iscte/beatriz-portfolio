@@ -36,11 +36,11 @@ export default function App() {
       {/* About Me Section */}
       <section className="about" id="about">
         <h1>A Little About Me</h1>
-        <p>Hello, I’m <span className="highlight">Beatriz</span>. I’m 24 years old and I´m from Lisbon.</p>
-        <p>I’ve always loved creating and pushing myself a little further. Lately, however, I’ve realized that finding the time or the patience to pause and reflect has become increasingly difficult.</p>
-        <p>We live in a world that urges us to <span className="highlight">rush</span>: we run through yellow lights, sleep less, and feel like life doesn’t wait for us. It’s easy to lose our sense of self in this rhythm. But I believe there is still space to resist.</p>
-        <p>For me, creating begins with simple, small gestures: sitting in a café, ordering an espresso, letting the moment awaken my mind. That’s where the most genuine ideas emerge.</p>
-        <p>Slowing down is not a luxury - it’s a necessity. It’s in that space between movement and pause that we can <span className="highlight">think, create, and innovate</span>. And that’s what I strive to bring to everything I do.</p>
+        <p>Hello, I'm <span className="highlight">Beatriz</span>. I'm 24 years old and I'm from Lisbon.</p>
+        <p>I've always loved creating and pushing myself a little further. Lately, however, I've realized that finding the time or the patience to pause and reflect has become increasingly difficult.</p>
+        <p>We live in a world that urges us to <span className="highlight">rush</span>: we run through yellow lights, sleep less, and feel like life doesn't wait for us. It's easy to lose our sense of self in this rhythm. But I believe there is still space to resist.</p>
+        <p>For me, creating begins with simple, small gestures: sitting in a café, ordering an espresso, letting the moment awaken my mind. That's where the most genuine ideas emerge.</p>
+        <p>Slowing down is not a luxury, it's a necessity. It's in that space between movement and pause that we can <span className="highlight">think, create, and innovate</span>. And that's what I strive to bring to everything I do.</p>
       </section>
 
       {/* Experience Section */}
