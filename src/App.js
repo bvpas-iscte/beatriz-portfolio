@@ -144,7 +144,7 @@ export default function App() {
           <div className="project-item computer-mockup">
             <div className="computer-frame">
               <video
-                src={`${process.env.PUBLIC_URL}/videos/0926(1).mov`}
+                src={`${process.env.PUBLIC_URL}/videos/finance-dashboard-showcase.mp4`}
                 controls
                 muted
                 playsInline
@@ -152,14 +152,14 @@ export default function App() {
                 className="project-video-horizontal"
               />
             </div>
-            <p>Finance Tracker App</p>
+            <p>Finance Dashboard</p>
             <h5>React, React Router, Local Storage</h5>
             <div className="project-buttons">
               <button className="see-more-btn" onClick={() => setShowModal2(true)}>
                 more info
               </button>
               <a
-                href="https://bvpas-iscte.github.io/finance-tracker/"
+                href="https://bvpas-iscte.github.io/finance-dashboard-web/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="see-demo-btn"
@@ -197,7 +197,8 @@ export default function App() {
               <h3>Finance Tracker</h3>
               <p>
                 A React web app that helps users track their expenses and income.
-                Built with React and React Router, it uses Local Storage to save user data directly in the browser.
+                Built with React and Vite.
+                TypeScript, JavaScript, HTML, CSS.
               </p>
             </div>
           </div>
