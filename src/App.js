@@ -16,7 +16,7 @@ export default function App() {
             <li><a href="#about"><span className="nav-number">II</span><span className="nav-label">About</span></a></li>
             <li><a href="#experience"><span className="nav-number">III</span><span className="nav-label">Experience</span></a></li>
             <li><a href="#projects"><span className="nav-number">IV</span><span className="nav-label">Work</span></a></li>
-            <li><a href="#passions"><span className="nav-number">V</span><span className="nav-label">Passions</span></a></li>
+            <li><a href="#passions"><span className="nav-number">V</span><span className="nav-label">Interests</span></a></li>
           </ul>
         </div>
       </nav>
