@@ -4,6 +4,7 @@ import "./VideoStyles.css";
 export default function App() {
   const [showModal1, setShowModal1] = useState(false);
   const [showModal2, setShowModal2] = useState(false);
+  const [showModal3, setShowModal3] = useState(false);
 
   return (
     <div>
@@ -170,6 +171,27 @@ export default function App() {
           </div>
         </div>
 
+        {/* Project 3 */}
+        <div className="project-item computer-mockup">
+          <div className="computer-frame">
+            <video
+              src={`${process.env.PUBLIC_URL}/videos/bi-dashboard-showcase.mp4`}
+              controls
+              muted
+              playsInline
+              webkit-playsinline="true"
+              className="project-video-horizontal"
+            />
+          </div>
+          <p>Amazon Reviews BI Platform</p>
+          <h5>Power BI, Microsoft Fabric, DAX, SQL</h5>
+          <div className="project-buttons">
+            <button className="see-more-btn" onClick={() => setShowModal3(true)}>
+              more info
+            </button>
+          </div>
+        </div>
+
         {/* Modal Project 1 */}
         {showModal1 && (
           <div className="modal-overlay" onClick={() => setShowModal1(false)}>
@@ -199,6 +221,26 @@ export default function App() {
                 A React web app that helps users track their expenses and income.
                 Built with React and Vite.
                 TypeScript, JavaScript, HTML, CSS.
+              </p>
+            </div>
+          </div>
+        )}
+
+        {/* Modal Project 3 */}
+        {showModal3 && (
+          <div className="modal-overlay" onClick={() => setShowModal3(false)}>
+            <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+              <span className="close-btn" onClick={() => setShowModal3(false)}>
+                &times;
+              </span>
+              <h3>Amazon Reviews BI Platform</h3>
+              <p>
+                A complete Business Intelligence solution built in Microsoft Fabric to analyze Amazon
+                customer reviews. Designed a dimensional data warehouse (star schema) with 5 dimensions,
+                built a semantic model with custom DAX measures and KPIs, and developed an interactive
+                multi-page Power BI dashboard alongside paginated reports answering 20 business questions
+                on customer sentiment, engagement, and product performance. Group project for Business
+                Intelligence II at NOVA IMS.
               </p>
             </div>
           </div>
