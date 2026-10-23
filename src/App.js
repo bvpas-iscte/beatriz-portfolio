@@ -81,7 +81,7 @@ export default function App() {
             </p>
             <ul className="experience-description">
               <li>Working as a Cloud Engineer within the API Platforms area, contributing to both internal initiatives and client projects.</li>
-              <li>Involved in an internal project focused on the management of cloud certifications (Azure and Google Cloud), leveraging tools such as Azure DevOps and Confluence for project management, documentation, and team collaboration.</li>
+              <li>Involved in an internal project focused on the management of cloud certifications (Azure and Google Cloud).</li>
               <li>Concurrently contributing to a client project in the energy sector, supporting the development of an Internal Developer Platform (IDP) for cloud resource provisioning.</li>
               <li>Previously contributed to a MuleSoft project (Nov–Feb), where I developed a frontend interface integrated with MuleSoft services.</li>
             </ul>
